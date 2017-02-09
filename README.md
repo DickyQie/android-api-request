@@ -1,8 +1,8 @@
 # Volley框架之网络请求和图片加载
 
-  <p>Volley是 Google 推出的 Android 异步网络请求框架和图片加载框架。<span style="color:#000000"><strong>Volley的特性</strong></span>的请求队列，一定程度符合 Http 规范，包括请求头的处理，缓存机制的支持等。<br> (3).自定义的网络图像加载视图（NetworkImageView，ImageLoader等)&nbsp;。<br> (4). 提供简便的图片加载工具。</p> 
+ <p>Volley是 Google 推出的 Android 异步网络请求框架和图片加载框架。<span style="color:#000000"><strong>Volley的特性</strong></span>的请求队列，一定程度符合 Http 规范，包括请求头的处理，缓存机制的支持等。<br> (3).自定义的网络图像加载视图（NetworkImageView，ImageLoader等)&nbsp;。<br> (4). 提供简便的图片加载工具。</p> 
 <p>本案例包含get，post请求和几种网络图片加载的方式，效果如图：</p> 
-<p><img alt="" height="408" src="https://static.oschina.net/uploads/space/2016/1212/115255_xjFD_2945455.png" width="303">&nbsp;&nbsp; &nbsp; &nbsp;<img alt="" height="408" src="https://static.oschina.net/uploads/space/2016/1212/115238_yTmo_2945455.png" width="266"></p> 
+<p>&nbsp;&nbsp;&nbsp; <img alt="" height="343" src="https://static.oschina.net/uploads/space/2017/0209/094556_Szys_2945455.gif" width="267"></p> 
 <p>辅助类&nbsp;ApplicationController.java</p> 
 <pre><code class="language-java">/**
  * 
@@ -297,8 +297,3 @@ public class VolleyImg extends Activity implements OnClickListener {
 <pre><code class="language-html">  &lt;uses-permission android:name="android.permission.INTERNET"/&gt;
   &lt;uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/&gt;
   &lt;application android:name="util.ApplicationController"&gt;</code></pre> 
-<p>由于代码太多，布局文件未给出，要源码直接下载即可</p> 
-<p>源码下载：</p> 
-<p>&nbsp;</p> 
-<p>Eclipse下载：<a href="http://download.csdn.net/detail/dickyqie/9631961" target="_blank" rel="nofollow">http://download.csdn.net/detail/dickyqie/9631961</a></p> 
-<p>AndroidStudio下载：<a href="https://github.com/DickyQie/Volley" target="_blank" rel="nofollow">https://github.com/DickyQie/Volley</a></p>
